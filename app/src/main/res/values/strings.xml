@@ -3,4 +3,11 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="titulos">
+        <item>CFGS-DAM</item>
+        <item>CFGS-DAW</item>
+        <item>Grado Ingenieria Informatica</item>
+        <item>Grado Multimedia</item>
+    </string-array>
 </resources>
