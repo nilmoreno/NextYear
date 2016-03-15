@@ -8,86 +8,11 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.nilmoreno.nextyear.MainActivity">
+    <fragment android:name="com.example.nilmoreno.nextyear.MainFragment"
+        android:id="@+id/mainFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
 
 
-    <ImageView
-        android:layout_width="75dp"
-        android:layout_height="75dp"
-        android:id="@+id/imageView1"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-
-    <ImageView
-        android:layout_width="75dp"
-        android:layout_height="75dp"
-        android:id="@+id/imageView2"
-        android:layout_below="@+id/imageView1"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="50dp" />
-
-    <ImageView
-        android:layout_width="75dp"
-        android:layout_height="75dp"
-        android:id="@+id/imageView3"
-        android:layout_marginTop="50dp"
-        android:layout_below="@+id/imageView2"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-
-    <ImageView
-        android:layout_width="75dp"
-        android:layout_height="75dp"
-        android:id="@+id/imageView4"
-        android:layout_marginTop="50dp"
-        android:layout_below="@+id/imageView3"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Ingenieria Informática"
-        android:id="@+id/textView1"
-        android:layout_alignParentTop="true"
-        android:layout_toRightOf="@+id/imageView1"
-        android:layout_toEndOf="@+id/imageView1" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="CFGS DAW"
-        android:id="@+id/textView2"
-        android:layout_alignTop="@+id/imageView2"
-        android:layout_centerHorizontal="true" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Formación online"
-        android:id="@+id/textView3"
-        android:layout_alignTop="@+id/imageView3"
-        android:layout_centerHorizontal="true" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Otras opciones"
-        android:id="@+id/textView4"
-        android:layout_alignTop="@+id/imageView4"
-        android:layout_centerHorizontal="true" />
-
-    <Button
-        android:layout_width="45dp"
-        android:layout_height="50dp"
-        android:text="+"
-        android:id="@+id/button"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>
