@@ -32,10 +32,10 @@ public class MainFragment extends ListFragment {
 
         super.onActivityCreated(savedInstanceState);
 
-        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(getActivity(), R.array.Planets, android.R.layout.activity_list_item);
+        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(getActivity(), R.array.titulos, android.R.layout.activity_list_item);
 
         setListAdapter(adapter);
-        getListView().setOnItemClickListener(this);
+     //   getListView().setOnItemClickListener(this);
 
     }
 

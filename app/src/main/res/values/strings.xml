@@ -4,6 +4,20 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
+    <string name="nuevo">Agregar una receta</string>
+    <string name="editar">Editar</string>
+    <string name="borrar">Borrar</string>
+    <string name="inicio">Inicio</string>
+    <string name="ajustes">Ajustes</string>
+    <string name="ayuda">Ayuda</string>
+    <string name="hintTitulo">Titulo</string>
+    <string name="hintTime">Duración (Semanas, meses, años)</string>
+    <string name="hintPrice">Precio</string>
+    <string name="hintDiff">Dificultad</string>
+    <string name="hintDetails">Detalles</string>
+    <string name="Guardar">Guardar</string>
+    <string name="Cancelar">Cancelar</string>
+
     <string-array name="titulos">
         <item>CFGS-DAM</item>
         <item>CFGS-DAW</item>

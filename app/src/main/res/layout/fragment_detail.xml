@@ -1,14 +1,41 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.nilmoreno.nextyear.DetailFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment"
-        android:id="@+id/detailTextView"/>
 
-</FrameLayout>
+    <ImageView android:id="@+id/DetailImage"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/detail_image_size" />
+
+    <TextView android:id="@+id/DetailTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/title_list"/>
+
+    <TextView android:id="@+id/DetailType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView android:id="@+id/DetailPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView android:id="@+id/DetailTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView android:id="@+id/DetailDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>
+
